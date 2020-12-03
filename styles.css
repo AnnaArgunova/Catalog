@@ -1,0 +1,43 @@
+
+.folder{
+ margin: 0 20px;
+ position: relative;
+    
+}
+.folder::before{
+    font-family: "Material Icons";
+    content:'folder';
+   position: absolute;
+    font-size: 20px;
+    color:#edbc0b;
+    left: -20px;
+    
+}
+
+.file::before{
+    font-family: "Material Icons";
+    content:'insert_drive_file';
+    position: absolute;
+    font-size: 20px;
+    color:grey;
+    display: block;
+    left: -20px;
+}
+
+.folder.open::before{
+    font-family: "Material Icons";
+    content:'folder_open';
+    position: absolute;
+    font-size: 20px;
+    color:#edbc0b;
+    display: block;
+    left: -20px;
+}
+
+.text{
+    font-style: italic;
+    margin: 0;
+}
+
+
+
